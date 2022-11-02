@@ -78,7 +78,7 @@ function Accomplishment() {
                     (showSuccess) && (
                         <div>
                             <div className="Accomplishment-spinner-container">
-                                <img src={confetti} className="Accomplishment-img"/> 
+                                <img src={confetti} className="Accomplishment-img" alt=''/> 
                                 <h1>This Accomplisment was Successfully Submitted</h1> 
                             </div>
                             <button className="Accomplishment-btn" onClick={() => {

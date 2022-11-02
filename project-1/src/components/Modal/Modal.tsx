@@ -15,12 +15,6 @@ interface IProps {
   }[]>>
 }
 
-type Habit = {
-  _id: string,
-  habit: string,
-  completed: boolean
-}
-
 function AddModal({ habits, setHabits }: IProps) {
     const [show, setShow] = useState(false);
   
