@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import "./HabitCard.css"
 import close from "../../svg/close.svg"
 import check from "../../svg/check.svg"
@@ -23,8 +22,6 @@ interface IProps {
 
 function HabitCard({ habit, setHabits, habits }: IProps) {
 
-    const [complete, setComplete] = useState(false)
-
     return (
         <div className="HabitCard" onClick={() => {
             let newHabits = habits.map(updatedHabit => {
@@ -38,7 +35,7 @@ function HabitCard({ habit, setHabits, habits }: IProps) {
             setHabits(newHabits)
         }}>
             <div className="HabitCard__completion-container">
-                <img className="HabitCard__completion-icon" src={habit.completed ? check : close}/>
+                <img className="HabitCard__completion-icon" alt='' src={habit.completed ? check : close}/>
             </div>
             <div className="HabitCard__habit-container">
                 {habit.habit}
