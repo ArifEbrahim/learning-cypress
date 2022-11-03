@@ -1,0 +1,17 @@
+[
+  {
+    "id": 3,
+    "reward": "250 points for exercising for 3 straight days",
+    "month": "January"
+  },
+  {
+    "id": 4,
+    "reward": "5000 points for getting a new job",
+    "month": "Feburary"
+  },
+  {
+    "id": 5,
+    "reward": "100 points for waking up early",
+    "month": "Feburary"
+  }
+]
